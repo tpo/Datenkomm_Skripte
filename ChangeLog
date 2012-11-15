@@ -1,0 +1,294 @@
+InternetProtokoll (1.11); urgency=low
+
+  * "Fehlerbehandlung - ICMP", S.28, ergänzt
+
+ -- Tomas Pospisek <xpos@zhaw.ch>  Thu, 06 Sep 2012 16:10:55 +0200
+
+NetzwerkManagement (1.12); urgency=low
+
+  * "IP-Version 6 (IPv6)" (p66), zweigeteilt, erste hat jetzt
+                                 Zahlenspielereien
+  * "IP-Version 6 (IPv6)" (p71), Vergleich v4 vs v6 hinzugefügt
+  * "Routing - BGP4 (3)"  (p56), korrekter formuliert
+  * "MIB II Gruppen"      (p25), Transmission ist nicht mehr in
+                                 Entwurfsstadium, es existiern RFCs dazu
+  * "Konf. v. RMON Mess." (p30), s/gruppe/tabelle/
+                            
+  * NICHT VERÖFFENTLLICHT
+
+ -- Tomas Pospisek <tpospise@hsz-t.ch>  Thu, 15 Dec 2011 17:22:05 +0100
+
+NetzwerkManagement (1.11); urgency=low
+
+  * "Namen von Objektklassen", S.11, OID Länge spezifiziert
+  * "Routing (1)", S.30, komplet ersetzt, der Text war verwirrungsfördernd
+
+ -- Tomas Pospisek <tpospise@hsz-t.ch>  Wed, 07 Dec 2011 15:15:34 +0100
+
+InternetProtokoll (1.10); urgency=low
+
+  * "Paketformat (1)", S.7, s/TOS/DiffServ/
+    "Paketformat (2)", S.8, MPLS rausgenommen
+  + "Paketformat (3)", S.9, DiffServ
+  * "Protokolle der nächsthöheren Schicht", S.10, + modernere Protokolle
+  * "Fragmentierung (1)", S.11, Offset Grösse definiert
+  * "Address Resolution (1)", S.25, besser formuliert
+  * "Address Resolution (2)", S.26, besser formuliert
+  * "Routing - Distance Vector Routing (1)", S.34, im Ablauf Schlaufe
+                                             explizit gemacht
+
+ -- Tomas Pospisek <tpospise@hsz-t.ch>  Fri, 16 Sep 2011 11:52:08 +0200
+
+ATM (1.6); urgency=low
+
+  * hier und da kleine Anpassungen der Formattierung
+  * "Variable vs. feste Zellgrösse", S.7, präzisiert, dass ATM Pakete
+                                     besprochen werden.
+
+ -- Tomas Pospisek <tpospise@hsz-t.ch>  Thu, 18 Dec 2008 16:54:20 +0100
+
+Wireless (1.5); urgency=low
+
+  * hier und da kleine Anpassungen der Formattierung
+
+ -- Tomas Pospisek <tpospise@hsz-t.ch>  Thu, 11 Dec 2008 23:07:21 +0100
+
+NetzwerkManagement (1.8); urgency=low
+
+  * hier und da kleine Anpassungen der Formattierung
+
+ -- Tomas Pospisek <tpospise@hsz-t.ch>  Thu, 04 Dec 2008 16:57:48 +0100
+
+InternetProtokoll (1.9); urgency=low
+
+  * "Internet Definition", S.2, Link auf xkcd's Hilbert Aufteilung des
+                                IP Addressraums hinzugefügt
+  * "Weiterleitung von IP Datagrammen (3,4)", S.17-18,
+                                - s/Routing/Weiterleitung/g
+                                - Adressen der Router korrigiert
+  * hier und da kleine Anpassungen der Formattierung
+
+ -- Tomas Pospisek <tpospise@hsz-t.ch>  Thu, 30 Oct 2008 18:39:41 +0100
+
+Wireless (1.4); urgency=low
+
+  * Layout Anpassungen
+
+ -- Tomas Pospisek <tpospise@hsz-t.ch>  Fri, 01 Aug 2008 18:57:19 +0200
+
+Wireless (1.4pre); urgency=low
+
+  * Skript ziemlich erweitert, v.a. ab Seite 24, Security etc.
+
+ -- Karl Brodowsky <karl@brodowsky.com>  Thu, 19 Jun 2008 14:39:08 +0200
+
+InternetProtokoll (1.8); urgency=low
+
+  * neue Fonts, neue Formatierung. Lahm.
+  * "Weiterleitung von IP Datagrammen (4)", S.18, 2. Eintrag in
+    Weiterleitungstabelle hat anderen Router bekommen als 3.
+  * "Weiterleitung von IP Datagrammen (5)", S.19, reformatiert
+  * "Routing (1)", S.29, stimmt nicht ganz?
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Thu, 24 Apr 2008 15:45:56 +0200
+
+NetzwerkManagement (1.7); urgency=low
+
+  * "Netzwerkmanagement", S.1, Typo
+  * "Features von SNMPv3", S.43, Typo
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Thu, 05 Jul 2007 15:58:33 +0200
+
+NetzwerkManagement (1.6); urgency=low
+
+  * "Funktionen des Netzwerkmanagements", S.2, bessere Formatierung
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Sun, 19 Nov 2006 18:30:51 +0100
+
+Wireless (1.3); urgency=low
+
+  * "Elekotromagnetische Wellen", S.1, Wellenlänge Formel eingerückt.
+
+ -- Tomas Pospisek <tpospise@hsz-t.ch>  Thu, 21 Sep 2006 16:59:41 +0200
+
+ATM (1.5); urgency=low
+
+  * "Asynchronous Transfer Mode", S.1, kleine kosmetische Änderungen: z.B.
+                                       dass Fast/Giga-Ethernet mitlerweile
+                                       ATM überholt haben
+  * "Virtuelle Leitungsvermittlung", S.14, s/MPSL/MPLS/
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Thu, 14 Sep 2006 16:11:02 +0200
+
+NetzwerkManagement (1.5); urgency=low
+
+  * "PDUs bzw. Grundoperationen", S.15, Kommandos korrekt und eindeutig benannt
+  * "Konfiguration von Rmon Messungen", S.30, Typos, notiert, das
+                                              Konfiguration eine Transaktion
+                                              darstellt
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Thu, 07 Sep 2006 15:48:01 +0200
+
+InternetProtokoll (1.7); urgency=low
+
+  * "Internet Dienstmodel", S.5, "(End-to-End)", "Intelligenz am Rand!"
+                                 hinzugefügt
+  * "Paketformat", S.8, Rechtschreibung: "IPv6", "VoIP"
+  * "Subnetting - Subnetzmaske (1)", S.21, ein '1'er zu viel
+  * "Subnetting - Subnetzmaske (2)", S.22, "Cisco 'ip classless' aus Seite 49
+                                           "CIDR" verschoben
+  * "IP Konfiguration von Host/Router", S.23, "ip" Kommando hinzugefügt
+  * "Routing (5)", S.34, aufgeteilt. "Metrik" Erklärung bleibt,
+                         "Routing Domain" & "AS" an den Anfang von
+                         "Routing - Interdomain Routing" S.50 verschoben
+  * "Routing - Distancevector Routing (3)", S.36, "Routing-Aktualisierung,
+                                            Angestossen" besser formuliert
+  * "Link State vs. Distance Vector", S.41, DV: gibt weiter was er weiss oder
+                                            *gelernt*hat
+  * "IP Version 6 (IPv6) (4)", S.67, IPv6 Multihoming Lösung "Shim6" erwähnt
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Thu, 17 Aug 2006 17:19:05 +0200
+
+ATM (1.4); urgency=low
+
+  * "Frame-Erzeugungstechniken", S.2, irrelevanten Kommentar enfernt
+  * NOT RELEASED
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Fri, 23 Sep 2005 15:48:35 +0200
+
+NetzwerkManagement (1.4); urgency=low
+
+  * "Event Group", S.40 nach S.33 verschoben, S.32 referenziert die
+    Event Group
+  * NOT RELEASED
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Fri, 23 Sep 2005 15:25:28 +0200
+
+InternetProtokoll (1.6); urgency=low
+
+  * "Routing - Interdomain Routing (3)", S.52, Grammatik: "befördert
+    Transitverkehr"
+  * "Routing - Interdomain Routing (3-*)", S.52-S.59, neu:
+    "Routing - BGP4 (1-*)"
+  * "Routing - BGP4 (7)", S.58, Interdomain -> Intradomain
+  * "Routing - Interdomain Routing (11-*)", S.60-S.62, neu:
+    "Routing - IGP & EGP Routing (1-3)"
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Fri, 26 Aug 2005 16:05:26 +0200
+
+InternetProtokoll (1.5); urgency=low
+
+  * "Internet Protokolle", S.4, ICMP ist Layer 4 - auf 3/4 geändert
+  * "Adressen (2)", S.12, /24 ist Klasse C 
+  * "Adressen (3)", S.13, Netzwerkad(r)esse, (B)its
+  * "Paketformat (2)", S.8, erheblich erweitert
+  * "Protokolle der nächsthöheren Schicht", S.9, Teil aus vorhergehender
+    Seite
+  * "Fragmentierung", S.10, F(ra)gmentierung
+  * "Fragmentierung (2)", S.11, dito
+  * "Weiterleitung von IP Datagrammen (4)", S.18, Gesammtübersicht der
+    Weiterleitungstabellen eingefügt
+  * "Weiterleitung von IP Datagrammen (5)", S.19, Frage nach dem
+    Aussehen des Lyer 2 Pakets eingefügt.
+  * "IP Konfiguration von Hosts/Router(5)", S.23, Kommandos in Courier
+  * "Routing - Link State (2)", S.40, Kosten: C(m) -> c(m)
+  * "Routing - Interdomain Routing (1)", S.50, IGP -> EGP,
+    Interior -> Exterior
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Fri, 19 Aug 2005 15:30:34 +0200
+
+NetwerkManagement (1.3); urgency=low
+
+  * "Management Informationen und MIB", S.10, Typo: MIB ist Baum(,)
+  * "Operationen auf Objekte", S.6, Typo: (S)eriennummer
+  * "Alarm Group", S.32, klarerer Text
+  * "Filter Group", S.36, klarerer Text
+  * "Packet Capture Group", S.39, klarerer Text
+  * NOT RELEASED
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Sat, 07 May 2005 22:22:28 +0200
+
+ATM (1.1); urgency=low
+
+  * Blatt "reservierung oder Feedback" eingefügt
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Tue,  9 Nov 2004 10:33:41 +0100
+
+ATM (1.3); urgency=medium
+
+  * Vergleich 1980 mit existierenden Technologien
+  * Grafik SONET phaseverschobene Nutzdaten eingefügt
+  * Frame Erzeugungstechniken mit Context ergänzt
+  * Grafik Phasenverschobene SONET Nutzdaten
+  * ASC Grafik "Fragmentierung und Reassemblierung" verbessert
+  * US vs EU Zellgrösse besprochen
+  * bei Virtueller Leitungsvermittlung MPLS erwähnt
+  * Seitenreferenzen auf Kapitelreferenzen umgewandelt
+  * bei Virtuellen Pfaden Grafik hinzugefügt
+  * Geschichte von AAL3, 4, 3/4, 5 hinzugefügt
+  * bei Routing IPv6 Adressspace erwähnt
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Fri, 10 Sep 2004 15:28:12 +0200
+
+NetzwerkManagement (1.2); urgency=medium
+
+  * PDU Grundoperationen -> get-next präzisiert
+  * SNMP: Port 161, SNMP Trap: Port 162
+  * "Der MIB II Teilbaum" besser formatiert
+  * "MIB II Gruppen": Referenz auf "Dokumentation MIB II"
+    (Auszug aus Definition) eingefügt
+  * neue Folie "Konfiguration von Rmon Messungen"
+  * getBulk präzisiert
+  * SNMP Tools erwähnt
+  * anhand Interfaces Gruppe Tabellen besser erklärt
+  * Zeitdiagram von SNMPv1 Operationen aufgezeichnet
+  * SNMP Probleme beschrieben
+  * Netconf erwähnt
+  * RMON Gruppen präzisiert
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Fri, 10 Sep 2004 12:00:55 +0200
+
+InternetProtokoll (1.4); urgency=high
+
+  * irgendwie sind die BGP Updates in der Version 1.3 rausgerutscht.
+    Jetzt sind sie drin!
+  * Typos
+  * kleine Formatierungsänderungen
+  * kein grauer Hintergrund mehr (Tinte sparen)
+  * BGP4 Literaturreferenz
+  * die Bezeichnungen Interior/Exterior Gateway Protocol (IGP, EGP)
+    erwähnt
+  * Referenzen auf externe Dokumente eingefügt
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Wed, 18 Aug 2004 14:31:34 +0200
+
+InternetProtokoll (1.3); urgency=medium
+
+  * diverse Rechtschreibefehler behoben
+  * kleine Formatierungsänderungen
+  * BGP Sektion erheblich erweitert
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Thu, 12 Aug 2004 11:51:44 +0200
+
+InternetProtokoll (1.2); urgency=low
+
+  * Michaels Änderungen eingebaut:
+    - ARP (3)
+    - OSPF (5)
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Thu, 01 Jul 2004 00:18:23 +0200
+
+Ueberlast (1.0); urgency=low
+
+  * neu erstellt
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Tue, 19 Sep 2003 15:03:00 +0200
+
+Wireless (1.2); urgency=low
+
+  * Kapitelnummerierung war falsch: VII -> VIII
+  * "virtuelle Boxen" unter dem Titel gelöscht
+  * Wireless Frequenzbereich auf erster Seite gelöscht
+
+ -- Tomas Pospisek <tpospise@fhzh.ch>  Tue, 19 Sep 2003 15:13:27 +0200
+
