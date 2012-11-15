@@ -1,3 +1,11 @@
+Alles (1.x); urgency=low
+
+  * heute wurden die Datenkomm Skripte ins git eingecheckt. Somit
+    sind alle weiteren Änderungen dort aufgelistet:
+    https://github.com/tpo/Datenkomm_Skripte/commits/master
+
+ -- Tomas Pospisek <xpos@zhaw.ch>  Thu, 15 Nov 2012 11:21:25 +0100
+
 InternetProtokoll (1.11); urgency=low
 
   * "Fehlerbehandlung - ICMP", S.28, ergänzt
